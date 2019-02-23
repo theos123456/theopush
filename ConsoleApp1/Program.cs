@@ -24,7 +24,7 @@ namespace MovieconsoleApp.NewDb
                 Console.WriteLine("All movies in database:");
                 foreach (var Movieconsoletbl in db.Movieconsoles)
                 {
-                    Console.WriteLine("{0}",Movieconsoletbl.title+"{1}",Movieconsoletbl.year+"{1}",Movieconsoletbl.category_name);
+                    Console.WriteLine("{0}{1}{2}",Movieconsoletbl.title,Movieconsoletbl.year,Movieconsoletbl.category_name);
                     Console.WriteLine();
                 }
             }
